@@ -127,11 +127,11 @@ import os
 #server
 STATIC_URL = '/static/'
 STATIC_ROOT = '/home/djangomo/javohir-blogs.uz/django/staticfiles'
-STATICFILES_DIRS = ('/home/djangomo/javohir-blogs.uz/django/staticfiles',)
+STATICFILES_DIRS = ('/home/djangomo/javohir-blogs.uz/django/static',)
 
 #local
-MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
+#MEDIA_URL = "/media/"
+#MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
 
 
 #server
