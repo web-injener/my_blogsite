@@ -122,12 +122,12 @@ USE_TZ = True
 import os
 #local
 # STATIC_URL = '/static/'
-# STATIC_ROOT = BASE_DIR/'staticfiles'
+STATIC_ROOT = BASE_DIR/'staticfiles'
 
 #server
 STATIC_URL = '/static/'
 STATIC_ROOT = '/home/djangomo/javohir-blogs.uz/django/staticfiles'
-STATICFILES_DIRS = ('/home/djangomo/javohir-blogs.uz/django/static',)
+STATICFILES_DIRS = ('/home/djangomo/javohir-blogs.uz/django/staticfiles',)
 
 #local
 #MEDIA_URL = "/media/"
